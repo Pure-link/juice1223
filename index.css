@@ -1,0 +1,188 @@
+.firstCon{
+    width: 100%;
+    min-height: 600px;
+    background-color: #ffb102;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+}
+#text1{
+    font-size: 1em;
+    line-height: 2em;
+    /* background-color: #36a26b; */
+}
+@font-face{
+    font-family: first;
+    src: url(pictures/Nexa-Heavy.ttf)
+}
+@font-face{
+    font-family: second;
+    src: url(pictures/Classyvogueregular.ttf))
+}
+h1{
+    font-size: 1em;
+    text-align: center;
+    font-family: first;
+    line-height: 20px;
+}
+h2{
+    font-size: 0.9em;
+    text-align: center;
+    font-family: second;
+    line-height: 20px;
+}
+h3{ 
+    font-size: 0.7em;
+    text-align: center;
+    font-family: second;
+    line-height: 20px;
+    word-spacing: 5px;
+}
+.textCon{
+    width:40%;
+    aspect-ratio: 1/1;
+    /* background-color: aqua; */
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 50px; */
+    color: white;
+    /* text-align: center; */
+    margin: 20px 0;
+    /* margin-left: 5em; */
+    
+
+}
+.bookPic{
+    width:50%;
+    min-width: 300px;
+    aspect-ratio: 1/1;
+    /* background-color: aqua; */
+    margin: 20px 0;
+}
+.bookPic img{
+    height: 100%;
+}
+.secondCon{
+    width: 100%;
+    min-height: 500px;
+    background-color: #36a26b;
+    color: white;
+    display: grid;
+    place-items: center;
+    padding-bottom: 0.625em;
+    /* color: white; */
+}
+.innerCon{
+    width: 80%;
+    /* background-color: blue; */
+    aspect-ratio: 2/1;
+    display: flex;
+    /* align-items: first baseline; */
+    align-items: self-start;
+    /* align-items: last baseline; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.imgCon{
+    width: 40%;
+    aspect-ratio: 1/1;
+    min-width: 250px;
+    /* background-color: green; */
+    margin-bottom: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+}
+.textCon2{
+    width: 58%;
+    min-width: 350px;
+    /* background-color: aliceblue; */
+    margin-left: 20px;
+    /* color: white; */
+}
+
+.textCon2 h3{
+    text-align: start;
+}
+.imgCon img{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+.btn{
+    display: grid;
+    place-items: center;
+    background-color: #034e47;
+    color: white;
+}
+button{
+    width: 250px;
+    height: 50px;
+    border-width: 5px;
+    background-color: #ffb102;
+    border-color: #36a26b;
+}
+
+@media only screen and (max-width: 960px) {
+    body{
+        /* background-color: pink; */
+        font-size: 25px;
+    }
+    .firstCon{
+        display: grid;
+        place-items: center;
+        place-content: center;
+    }
+    .innerCon{
+        display: grid;
+        place-items: center;
+        /* background-color: orange; */
+    }
+    .textCon2{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 450px) {
+    body{
+        /* background-color: pink; */
+        font-size: 25px;
+    }
+    .innerCon{
+        display: grid;
+        place-items: center;
+        /* background-color: orange; */
+    }
+    .textCon2{
+        width: 100%;
+        min-width: 250px;
+    }
+    
+}
+@media only screen and (max-width: 350px) {
+    body{
+        /* background-color: pink; */
+        font-size: 20px;
+    }
+    .innerCon{
+        display: grid;
+        place-items: center;
+        /* background-color: orange; */
+    }
+    .textCon2{
+        width: 100%;
+        min-width: 250px;
+    }
+    
+}
